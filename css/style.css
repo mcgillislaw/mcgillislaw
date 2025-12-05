@@ -13,6 +13,9 @@ color: var(--fg);
 line-height: 1.6;
 }
 .container { max-width: var(--maxw); margin: 0 auto; padding: 1rem; }
+.header-container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.logo { width: 60px; height: 60px; margin-right: 1rem; }
+.header-text { display: flex; flex-direction: column; }
 .site-header { background: #fff; border-bottom: 1px solid #e6e9ef; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; }
 .site-header h1 { margin: 0; font-size: 1.75rem; color: var(--accent); }
 .tagline { color: #6b7280; font-style: italic; margin: 0.25rem 0; }
